@@ -1,0 +1,28 @@
+SET UP PYTHON ENVIRONMENT
+
+Download Python
+pip install virtualenv
+virtualenv env
+env\Scripts\activate
+pip install flask flask-sqlalchemy
+if error: Set-ExecutionPolicy -Scope CurrentUser
+Unrestricted
+python app.py to run app
+
+RUN DB
+env\Scripts\activate
+python
+from app import db
+db.create_all()
+exit()
+
+DEPLOY
+Download GIT
+Download HEROKU CLI from the browser
+pip install gunicorn 
+Create ProcFile file in the root folder
+pip freeze > requirements.txt
+git init
+git add .
+
+
