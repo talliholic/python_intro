@@ -24,5 +24,12 @@ Create ProcFile file in the root folder
 pip freeze > requirements.txt
 git init
 git add .
+git commit -m "Initial Commit"
+Create repository on github.com and get the code for CLI push
+heroku login
+heroku create + domain
+heroku rename to rename domain
+git push
+git push heroku main
 
 
